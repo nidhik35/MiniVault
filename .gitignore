@@ -1,0 +1,34 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local backup data and storage
+node_storage/
+node1_storage/
+node2_storage/
+node3_storage/
+chunk_store/
+uploads/
+restored/
+data/
+manifests/
+chunk_locations.json
+activity.json
+metrics.json
+
+# Generated manual test files
+minivault-manual-*.bin
+minivault-duplicate-*.bin
+testchunk.txt

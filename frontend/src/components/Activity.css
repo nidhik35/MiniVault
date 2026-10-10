@@ -1,0 +1,57 @@
+.activity-page {
+    padding: 20px;
+}
+
+.activity-page h2 {
+    margin-bottom: 20px;
+}
+
+.activity-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.activity-table th,
+.activity-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.activity-table th {
+    background: #2c3e50;
+    color: white;
+}
+
+.activity-table tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.activity-table tr:hover {
+    background: #e8f4ff;
+}
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+}
+
+.backup {
+    background-color: #28a745;
+}
+
+.restore {
+    background-color: #007bff;
+}
+
+.delete {
+    background-color: #dc3545;
+}
+
+.failure {
+    background-color: #b45309;
+}
